@@ -71,6 +71,7 @@ This python code is used to analyze a local election and provide the results to 
 2. ##### The row number
 
    In the code, the candidate and the county are at the 3rd and 2nd position.
+   
        `candidate_name = row[2]`
        `county_name = row[1]`
 
