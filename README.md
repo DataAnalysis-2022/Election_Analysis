@@ -48,7 +48,7 @@ The election results are shown in the following bullet list:
 
 The printed output of these results are shown here:
 
-​							![results](Resources\election_results_on_terminal.PNG)
+​							![results](Resources/election_results_on_terminal.PNG)
 
 
 
@@ -70,9 +70,8 @@ This python code is used to analyze a local election and provide the results to 
 
 2. ##### The row number
 
-​		In the code, the candidate and the county are at the 3rd and 2nd position.
+   In the code, the candidate and the county are at the 3rd and 2nd position.
+       `candidate_name = row[2]`
+       `county_name = row[1]`
 
- 					`candidate_name = row[2]`
-​					 `county_name = row[1]`
-
-​		For other elections, we need to examine the position of candidate and county and modify the code accordingly to read the   correct names.
+   For other elections, we need to examine the position of candidate and county and modify the code accordingly to read the correct names.
